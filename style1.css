@@ -13,3 +13,29 @@
   
     
 }
+.vector{
+  position:absolute;
+  top:100vh;
+  left:92vw;
+  
+  cursor:pointer;
+}
+
+.vector:hover{
+  animation:slide 1s 1;
+}
+@keyframes slide {
+  from {
+   left:91.9vw;
+  }
+  to{
+    left:92vw;
+  }
+}
+.welcome{
+  position:absolute;
+  top:1ovh;
+ 
+  left:5vw
+  
+}

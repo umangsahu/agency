@@ -1,0 +1,59 @@
+.navbar{
+  
+    height:13vh;
+    background:black;
+   
+  }
+  .navbar ul{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  
+  }
+  .navbar ul .box{
+    margin:1em;
+    list-style:none;
+    color: white;
+  }
+  .one .bgimgone{
+    height:100vh;
+      position: relative;
+      z-index:-1;
+      bottom: 5.8em;
+      
+    
+    }
+     .intro{
+      position:absolute;
+      bottom:19em;
+      left:4em;
+      z-index:2;
+      animation: mymove 2s 1;
+    }
+    
+ span{
+      color:white;
+      font-size:5rem;
+      z-index:1;
+      
+      
+    }
+    
+    @keyframes mymove{
+          from{
+            left:300px;
+           opacity:0;
+    
+          }
+          from{
+            opacity: 1;
+          }
+        }
+    .desc{
+      color:white;
+      box-sizing: border-box;
+      max-width:20vw;
+      max-height: 10vh;
+      
+    }
+    
